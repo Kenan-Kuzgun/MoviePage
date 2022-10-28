@@ -1,0 +1,129 @@
+html {
+    background-color: #111;
+}
+label {
+    color: #3301B3;
+    background-color: #b4a5a5;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+main {
+    position: absolute;
+    z-index: 2;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 30px;
+    background-color: #3301B3;
+    color: #fff;
+    padding: 25px;
+    border-radius: 50px;
+    border: 1px solid #b4a5a5;
+}
+
+.signup-form {
+    width: 500px;
+    margin: auto;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.signup-form input[type="checkbox"],
+.signup-form input[type="checkbox"]+label {
+    display: inline-block;
+    width: auto;
+}
+
+.signup-form button[type="submit"] {
+    display: block;
+    margin-top: 15px;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+.signup-form input:not([type="checkbox"]):focus,
+.signup-form select:focus {
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #b4a5a5;
+}
+
+.signup-form input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2E4C6d;
+    vertical-align: bottom;
+    border-radius: 50%;
+}
+
+.signup-form input[type="checkbox"]:hover {
+    background: gray
+}
+
+.signup-form input[type="checkbox"]:checked {
+    background: #2bd659;
+}
+
+.back {
+    background-image: url(../images/pexels-cottonbro-4881624.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    filter: blur(3px);
+    opacity: 0.4;
+    
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: #3301B3;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color:#fff;
+    color: #3301B3;
+}
+
+input:focus:not([type="checkbox"]) {
+    border: 3px solid #3301B3 !important;
+}

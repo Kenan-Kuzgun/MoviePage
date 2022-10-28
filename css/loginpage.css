@@ -1,0 +1,269 @@
+html {
+  scroll-behavior:smooth;
+}
+body {
+  margin: 0;
+  background-color: #151515;
+}
+
+.bg {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conteiner {
+  background-color: #151515;
+}
+
+.bg-image1 {
+  height: 100vh;
+  background-image: url("../images/loginpage/pexels-cottonbro-10599961.jpg");
+  opacity: 0.3;
+}
+
+.bg-image2 {
+  height: 50vh;
+  background-image: url("../images/loginpage/pexels-ron-lach-9807274.jpg");
+  background-position: center;
+}
+
+.planback {
+  background-color: #151515;
+  height: 550px;
+
+}
+#plans {background-image: url("../images/pexels-tima-miroshnichenko-7991486.jpg");
+background-size: cover;
+background-position:center;
+height: 70vh;
+opacity: 1;
+}
+.plan {opacity: 1;}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.caption .border {
+  background-color: #fff;
+  color: #151515;
+  padding: 20px;
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  border-radius: 16px;
+
+}
+
+.imp {
+  color: #fff;
+  background-color: #151515;
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.headtext {
+  position: absolute;
+  margin-top: 160px;
+  font-size: 35px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+}
+.headtext pre {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: white;}
+/* login */
+.user-login {
+  padding: 20px;
+  border: 1px solid #B4A5A5;
+  border-radius: 7PX;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #B4A5A5;
+  text-align: center;
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, .4);
+  font-size: 20px;
+}
+
+.loginbtn {background-color:rgba(255, 255, 255, 0.741);
+  cursor: pointer;
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 5px;
+  display: inline-block;}
+
+
+
+
+/* planlar */
+
+.section-title {
+  font-weight: bold;
+  text-align: center;
+  color: #301B3F;
+  padding: 25px;
+  background-color: #B4A5A5;
+  display: inline-block;
+  margin-bottom: 50px   ;
+  border-radius: 35px;
+}
+
+.plan {
+  color: #fff;
+  font-weight: 200;
+  width: 33.3%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  
+}
+
+.plan li {
+  text-align: initial;
+  color: #111;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.plan .innerplan h2,
+.plan .innerplan h3 {
+  color: #301B3F;
+  text-decoration: underline;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+
+}
+
+.innerplan {
+  background-color: #b4a5a5;
+  margin: 16px;
+  padding: 25px 10px;
+  border-radius: 10px;
+
+}
+
+.innerplan:hover {
+  box-shadow: 0 0 20px #fff;
+  transition: box-shadow .6s
+}
+
+.btn:hover {
+  box-shadow: 0px 3px 3px #fff;
+  transition: box-shadow .2s
+}
+
+.plan__badge {
+  background-color: #301B3F;
+  color: #E7F6F2;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+#mail {
+  
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  background-color: #b4a5a5;
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  left: 50%; 
+  transform: translate(-50%);
+  padding: 15px;
+  border-radius: 30px;
+
+}
+
+.td p {
+  position: relative;
+  top: 30px;
+  right: 100px;
+  padding: 15px;
+}
+
+.plan___recplan {
+  position: relative;
+  top: -30px;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border: 3px solid #E7F6F2;
+  border-radius: 10px;
+  padding: 5px;
+}
+/* footer */
+footer {
+  background-color:#301B3F;
+  padding: 30px;
+  margin-top: 30px;
+}
+footer a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+footer ul {
+  margin: 0;
+  padding: 0;    
+}
+footer ul li  {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+#social-links {
+  text-align: right;
+  font-size: 25px;
+}
+.fa-instagram {
+  font-size: 25px;
+  color: #fff;
+}
+.fa-twitter {
+  font-size: 25px;
+  color: #fff;
+}
+
+/* kolon */
+.row {
+  margin: bottom 40px;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col-3 {
+  float: left;
+  width: 33.3%;
+}
+.col-2 {
+  float: left;
+  width: 50%;
+}
+.col-4 {
+  float: left;
+  width: 25%;
+}

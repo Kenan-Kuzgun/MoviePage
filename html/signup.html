@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        html {margin: 0;}
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+
+<body style="margin:0;">
+    <div class="back" ></div>
+    <main class="signup-page">
+        <h1 class="signup-title">Hesabını oluştur.</h1>
+        <form action="loginpage.html" class="signup-form">
+            <label for="firstname">Ad:</label>
+            <input type="text" id="firstname">
+
+            <label for="lastname">Soyad:</label>
+            <input type="text" id="lastname">
+            
+            <label for="email">E-posta:</label>
+            <input type="email" id="email">
+            
+            <label for="password">Şifre:</label>
+            <input type="password" id="password">
+            
+
+            <label for="gender">Cinsiyet:</label>
+            <select id="gender"  style="width:532px;">
+                <option value="">Select</option>
+                <option value="">Kadın</option>
+                <option value="">Erkek</option>
+            </select>
+
+            <label for="birthday">Doğum Tarihi:</label>
+            <input type="date" id="birthdate">
+
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Kabul et
+                <a href="#">Terms &amp Conditions</a>
+            </label>
+            
+            <button type="submit" class="btn">Kayıt ol</button>
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>
